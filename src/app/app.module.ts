@@ -15,11 +15,13 @@ import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { environment } from './../environments/environment';
+import { StepperComponent } from './shaed/components/stepper/stepper.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LayoutComponent,
+    StepperComponent,
   ],
   imports: [
     BrowserModule,
